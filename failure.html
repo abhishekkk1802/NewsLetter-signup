@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Failures</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      style="margin-top: 55px; padding-top: 55px"
+      class="container-fluid text-sm-center p-5 bg-info text-white"
+    >
+      <!-- bg-light is background color & p-5 is padding -->
+      <h1 class="display-2">Uh-Oh!</h1>
+      <p class="lead">
+        There was a problem signing u up. please try again or contact the
+        developer!
+      </p>
+      <form action="/failure" method="POST">
+        <button class="btn btn-lgk btn-warning" type="submit" name="button">
+          Try Again
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
